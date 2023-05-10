@@ -93,7 +93,7 @@ git reset --soft <hash_value>
 git reset --hard <hash_value>
 git reset --mixed <hash_value>
 ```
-![git reset mode](../figs/git reset.jpg)
+![git reset mode](../figs/gitreset.jpg)
 
 ## 远程仓库
 #### 添加远程仓库
