@@ -7,7 +7,6 @@
 ## Frp配置流程
 frp可在拥有公网IP的服务器上，进行本地机器和内网中机器的通信。
 因此涉及到以下三者的配置(均需进行配置)：
-
 - 公网服务器(需要购买公网服务器，可通过华为云、腾讯云、阿里云等，首次购买有优惠)，因公网服务器为Linux系统，因此后续以Linux系统为例
 - 内网机器(受访者)，内网机器可为Linux，也可为Windows；此处以Linux为例
 - 本地机器(访问者)，同内网机器，为全面展示，此处以Windows为例
@@ -68,7 +67,7 @@ WantedBy = multi-user.target
 
 
 #### 内网机器(受访者)
-需要用到**frpc(Linux下)**和**frps.ini**文件，只需配置**frps.ini**文件，务必将**frps**和**frps.ini**文件放在/etc/frp/下(使用systemd情况下)
+需要用到**frpc(Linux下)**和**frpc.ini**文件，只需配置**frpc.ini**文件，务必将**frpc**和**frpc.ini**文件放在/etc/frp/下(使用systemd情况下)
 
 ##### **frpc.ini**文件内容
 ```bash
